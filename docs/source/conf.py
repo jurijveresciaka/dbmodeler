@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# dbmodeler documentation build configuration file, created by
-# sphinx-quickstart on Sat Apr 11 18:29:02 2015.
+# DB modeler documentation build configuration file, created by
+# sphinx-quickstart on Sat Apr 11 19:52:07 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -49,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'dbmodeler'
-copyright = '2015, Jurij Veresciaka'
-author = 'Jurij Veresciaka'
+project = u'DB modeler'
+copyright = u'2015, Jurij Veresciaka'
+author = u'Jurij Veresciaka'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -67,7 +66,7 @@ release = '0.0.1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = None
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -190,8 +189,8 @@ html_static_path = ['nstatic']
 
 # Language to be used for generating the HTML full-text search index.
 # Sphinx supports the following languages:
-#   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
-#   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr'
+#   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
+#   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'
 #html_search_language = 'en'
 
 # A dictionary with options for the search language support, empty by default.
@@ -203,7 +202,7 @@ html_static_path = ['nstatic']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'dbmodelerdoc'
+htmlhelp_basename = 'DBmodelerdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -225,8 +224,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'dbmodeler.tex', 'dbmodeler Documentation',
-   'Jurij Veresciaka', 'manual'),
+  (master_doc, 'DBmodeler.tex', u'DB modeler Documentation',
+   u'Jurij Veresciaka', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -255,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dbmodeler', 'dbmodeler Documentation',
+    (master_doc, 'dbmodeler', u'DB modeler Documentation',
      [author], 1)
 ]
 
@@ -269,8 +268,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'dbmodeler', 'dbmodeler Documentation',
-   author, 'dbmodeler', 'One line description of project.',
+  (master_doc, 'DBmodeler', u'DB modeler Documentation',
+   author, 'DBmodeler', 'One line description of project.',
    'Miscellaneous'),
 ]
 
